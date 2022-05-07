@@ -1,0 +1,20 @@
+﻿  CommandFunctions.c
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\MyHeader.h(60,1): warning C4005: 'MY_CMD_GREP': macro redefinition
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\MyHeader.h(49): message : see previous definition of 'MY_CMD_GREP'
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(15,1): warning C4029: declared formal parameter list different from definition
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(16,6): warning C4101: 'hdc': unreferenced local variable
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(351,6): warning C4101: 'hdc': unreferenced local variable
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(425,6): warning C4101: 'hdc': unreferenced local variable
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(503,18): warning C4013: 'feof' undefined; assuming extern returning int
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(512,12): warning C4013: 'fclose' undefined; assuming extern returning int
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(571,3): warning C4033: 'fun_mkdir' must return a value
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(564,9): warning C4101: 'hFile': unreferenced local variable
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(596,3): warning C4033: 'fun_mkfile' must return a value
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(663,46): warning C4047: '!=': 'BOOL' differs in levels of indirection from 'void *'
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(729,46): warning C4047: '!=': 'BOOL' differs in levels of indirection from 'void *'
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(793,32): warning C4020: 'MoveFileW': too many actual parameters
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(795,46): warning C4047: '!=': 'BOOL' differs in levels of indirection from 'void *'
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(805,37): warning C4020: 'MoveFileW': too many actual parameters
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(624): warning C4715: 'fun_mkfile': not all control paths return a value
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(585): warning C4715: 'fun_mkdir': not all control paths return a value
+  MyTerminal27-11-2021.vcxproj -> C:\Users\fauza\source\repos\MyTerminal27-11-2021\Debug\MyTerminal27-11-2021.exe
