@@ -1,0 +1,37 @@
+﻿  CommandFunctions.c
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\MyHeader.h(60,1): warning C4005: 'MY_CMD_GREP': macro redefinition
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\MyHeader.h(49): message : see previous definition of 'MY_CMD_GREP'
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(15,1): warning C4029: declared formal parameter list different from definition
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(16,6): warning C4101: 'hdc': unreferenced local variable
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(351,6): warning C4101: 'hdc': unreferenced local variable
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(425,6): warning C4101: 'hdc': unreferenced local variable
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(503,18): warning C4013: 'feof' undefined; assuming extern returning int
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(512,12): warning C4013: 'fclose' undefined; assuming extern returning int
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(571,3): warning C4033: 'fun_mkdir' must return a value
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(564,9): warning C4101: 'hFile': unreferenced local variable
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(596,3): warning C4033: 'fun_mkfile' must return a value
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(663,46): warning C4047: '!=': 'BOOL' differs in levels of indirection from 'void *'
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(729,46): warning C4047: '!=': 'BOOL' differs in levels of indirection from 'void *'
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(793,32): warning C4020: 'MoveFileW': too many actual parameters
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(795,46): warning C4047: '!=': 'BOOL' differs in levels of indirection from 'void *'
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(805,37): warning C4020: 'MoveFileW': too many actual parameters
+  Source.c
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\MyHeader.h(60,1): warning C4005: 'MY_CMD_GREP': macro redefinition
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\MyHeader.h(49): message : see previous definition of 'MY_CMD_GREP'
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\Source.c(175,73): warning C4047: 'function': 'DWORD' differs in levels of indirection from 'void *'
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\Source.c(175,69): warning C4024: 'CreateFileW': different types for formal and actual parameter 3
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\Source.c(346,30): warning C4013: 'GetWidthOfString' undefined; assuming extern returning int
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\Source.c(86,8): warning C4101: 'dw': unreferenced local variable
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\Source.c(716,8): warning C4101: 'hFont': unreferenced local variable
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\Source.c(990,27): warning C4020: 'fun_ls': too many actual parameters
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\Source.c(1035,11): warning C4013: 'fun_exe' undefined; assuming extern returning int
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\Source.c(1377,40): warning C4133: 'function': incompatible types - from 'TCHAR *' to 'const char *'
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\Source.c(1879,11): warning C4018: '<': signed/unsigned mismatch
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\Source.c(2038,13): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(624): warning C4715: 'fun_mkfile': not all control paths return a value
+C:\Users\fauza\source\repos\MyTerminal27-11-2021\MyTerminal27-11-2021\CommandFunctions.c(585): warning C4715: 'fun_mkdir': not all control paths return a value
+  All 34 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  MyTerminal27-11-2021.vcxproj -> C:\Users\fauza\source\repos\MyTerminal27-11-2021\Release\MyTerminal27-11-2021.exe
