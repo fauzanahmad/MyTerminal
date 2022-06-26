@@ -35,6 +35,7 @@ void fun_exit(HWND);
 BOOL fun_mkdir(HWND, TCHAR*);
 BOOL fun_mkfile(HWND, TCHAR*);
 void fun_rm(HWND, TCHAR*);
+void fun_rmdir(HWND, TCHAR*);
 void fun_redirect(HWND, TCHAR*);
 
 #define LINES		5000
@@ -66,4 +67,23 @@ void fun_redirect(HWND, TCHAR*);
 
 VK_UP and VK_DOWN
 
+*/
+
+
+
+/*
+"cat"
+"ls"  --> list contents from current folder
+"clear" --> clear screen
+"exit" --> exit from terminal
+"cd" --> change directory
+"cp" --> copy
+"mv" --> move
+"rm" --> remove
+"exec" --> execute
+"mkdir" --> make directory
+"mkfl" --> Make file
+"find" --> searching file
+"grep" -->
+"rmdir" --> Remove directory
 */

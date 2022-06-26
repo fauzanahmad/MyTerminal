@@ -950,6 +950,7 @@ void HandleEnterKeyPress(HWND hwnd, WPARAM wParam)
 			if (*pcStart != _T('\0'))
 			{
 				_tcscpy(g_szRedirectFileName, pcStart);
+				DumpOutput(WRITEMODE, g_szRedirectFileName);
 
 				pcStart -= 3;
 				memset(pcStart, 0x00, iLen);
@@ -1035,6 +1036,11 @@ void HandleEnterKeyPress(HWND hwnd, WPARAM wParam)
 			fun_exe(hwnd, szParam1, szParam2, szParam3, szParam4, szParam5, szParam6, szParam7, szParam8, szParam9);
 		}break;
 
+		case MY_CMD_RMDIR:
+		{
+			fun_rmdir(hwnd, szParam1);
+		}break;
+
 		case MY_CMD_EVT:
 		{
 		}break;
@@ -1074,6 +1080,8 @@ int GetCommandCode(TCHAR * szTemp)
 		return MY_CMD_FIND;
 	else if ( _tcscmp(szTemp, _T("exec")) == 0)
 		return MY_CMD_EXEC;
+	else if (_tcscmp(szTemp, _T("rmdir")) == 0)
+		return MY_CMD_RMDIR;
 	else if ( _tcscmp(szTemp, _T("evt")) == 0)
 		return MY_CMD_EVT;
 
